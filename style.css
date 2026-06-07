@@ -1,0 +1,63 @@
+body{
+    background: white;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;
+}
+.homepage{
+    background: #94e7cb;
+    border-radius:5px;
+    padding:5px;
+}
+.about{
+    background: #f891ae;
+    border-radius:5px;
+    padding:5px;
+}
+.contact{
+    background: #8bbafe;
+    border-radius:5px;
+    padding:5px;
+}
+.portfolio{
+    background: #ffe692;
+    border-radius:5px;
+    padding:5px;
+}
+.blog{
+    background:#c09bfa ;
+    border-radius:5px;
+    padding:5px;
+}
+.product{
+    background:#f1d4b6 ;
+    border-radius:5px;
+    padding:5px;
+}
+.landing{
+    background:#faab9a;
+    border-radius:5px;
+    padding:5px;
+}
+.faq{
+    background:#d2ffa0;
+    border-radius:5px;
+    padding:5px;
+}
+.testimonials{
+    background:#d0e4ff;
+    border-radius:5px;
+    padding:5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 6px;
+    gap: 5px;
+}
